@@ -1,3 +1,6 @@
+#include <a_samp>
+#include <zcmd>
+#include <sscanf2>
 
 ----------
 Loaded log file: "server_log.txt".
@@ -26602,11 +26605,14 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [17:47:44] [connection] incoming connection: 192.168.1.100:62606 id: 1
 [17:47:44] [join] [Lsrcr]Wajeeh has joined the server (1:192.168.1.100)
 [17:48:02] RCON (In-Game): Player #1 ([Lsrcr]Wajeeh) has logged in.
-[17:53:19] PropDB - 1273, 1170.906982, -1492.877197, 22.764205, 270.630187, 93, 1 ; // Drugs house at Market Base
+[17:53:19] PropDB - 1273, 1170.906982, -1492.877197, 22.764205, 270.630187, 93, 1 ; // Drugs house at Market Base
 
-[17:56:20] PropDB - 1273, 1170.901367, -1486.453491, 22.764209, 273.598999, 3, 1 ; // Items House at Market Base
 
-[18:00:06] PropDB - 1273, 1169.345581, -1501.698974, 22.764467, 253.172058, 60, 1 ; // Test house at market
+[17:56:20] PropDB - 1273, 1170.901367, -1486.453491, 22.764209, 273.598999, 3, 1 ; // Items House at Market Base
+
+
+[18:00:06] PropDB - 1273, 1169.345581, -1501.698974, 22.764467, 253.172058, 60, 1 ; // Test house at market
+
 
 [18:00:27] RCON (In-Game): Player [[Lsrcr]Wajeeh] sent command: lfs
 [18:00:30] RCON (In-Game): Player [[Lsrcr]Wajeeh] sent command: loadfs
@@ -28369,3 +28375,17 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [21:14:16] [connection] incoming connection: 192.168.0.101:55319 id: 1
 [21:14:16] [join] [Lsrcr]Wajeeh has joined the server (1:192.168.0.101)
 [21:15:00] RCON (In-Game): Player #1 ([Lsrcr]Wajeeh) has logged in.
+
+CMD:signup(playerid, params[])
+{
+    // kod za signup
+    return 1;
+}
+
+CMD:login(playerid, params[])
+{
+    // kod za login
+    return 1;
+}
+
+
